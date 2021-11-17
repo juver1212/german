@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.trackiinn.apptrack"
+    android:targetSandboxVersion="1">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- GPS -->
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" /> <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACTION_VIEW" />
+    <uses-permission android:name="android.permission.PERMISSION_GRANTED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- SUPERPOCISION DE PANTALLA -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@drawable/aceros_arequipa"
+        android:label="Aceros Arequipa"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:appComponentFactory">
+
+        <service
+            android:name="com.itp.trackinn.ServiceGeolocation.ServiceGeolocation"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.itp.trackinn.EnvioService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.itp.trackinn.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.itp.trackinn.ProgressIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.itp.trackinn.Views.MenuLateralActivity"
+            android:label="@string/title_activity_menu_lateral"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.itp.trackinn.Views.MenuInferiorActivity"
+            android:label="@string/title_activity_menu_inferior"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.itp.trackinn.Views.MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.itp.trackinn.AutomaticRun"
+            android:enabled="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

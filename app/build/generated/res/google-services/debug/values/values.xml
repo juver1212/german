@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">680453980331-fh9rm9g6tu9fksbv21ru8fu7ks082c0d.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://trackinn-itp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">680453980331</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNys3GoDQNDM3KXGIasEL4wmidg-iQhuQ</string>
+    <string name="google_app_id" translatable="false">1:680453980331:android:3035aa0fba7bed95a837ee</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNys3GoDQNDM3KXGIasEL4wmidg-iQhuQ</string>
+    <string name="google_storage_bucket" translatable="false">trackinn-itp.appspot.com</string>
+    <string name="project_id" translatable="false">trackinn-itp</string>
+</resources>

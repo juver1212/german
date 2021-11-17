@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/imageButtonGestion1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="GESTION"
+            android:textColor="#215398"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/borderinferior"/>
+
+        <Button
+            android:id="@+id/imageButtonInformacion1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="INFORMACION"
+            android:textColor="#5F5F5F"
+            android:backgroundTint="#fff"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_back"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#5F5F5F"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="8dp"
+                android:text="Seleccione" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk1"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="LLEGO AL CLIENTE"
+                android:layout_below="@+id/linearLayout" />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chk2"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:text="ME ESTAN ATENDIENDO"
+                android:layout_below="@+id/linearLayout" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="8dp"
+                android:text="Seleccione Observacion" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/textView"
+                android:transitionGroup="true"
+                android:contextClickable="false"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="8dp"
+                android:text="Kilometraje actual" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#d5d4d4"
+                android:digits="1234567890 "
+                android:maxLength="19"
+                android:inputType="number"
+                android:background="@drawable/textview_border"
+                android:ems="9"
+                android:paddingLeft="10dp"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="11dp"
+                android:layout_marginTop="8dp"
+                android:text="Observación" />
+
+            <EditText
+                android:id="@+id/campo_mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/textview_border"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="#d5d4d4" />
+
+            <Button
+                android:id="@+id/boton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_above="@+id/button"
+                android:layout_alignStart="@+id/button"
+                android:layout_alignLeft="@+id/button"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="#215398"
+                android:drawablePadding="8dp"
+                android:text="Capturar Imagen"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/botonCargarImage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_above="@+id/button"
+                android:layout_alignStart="@+id/button"
+                android:layout_alignLeft="@+id/button"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="#215398"
+                android:drawablePadding="8dp"
+                android:text="Cargar Imagen Desde Galeria"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="#215398"
+                android:drawablePadding="8dp"
+                android:text="Mercaderia Despachado"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="7pt" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Jun 14 11:11:35 COT 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Vega\\Desktop\\transporte_zavala\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1

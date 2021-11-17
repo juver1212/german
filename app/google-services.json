@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "541175065239",
+    "firebase_url": "https://transporte-zav.firebaseio.com",
+    "project_id": "transporte-zavala",
+    "storage_bucket": "transporte-zavala-sac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541175065239:android:aef82b0ec561f518f857d2",
+        "android_client_info": {
+          "package_name": "com.itp.transportezavala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541175065239-gvb7vrs8tehknvgrf5chqrr4iu2g2kdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itp.transportezavala",
+            "certificate_hash": "f6dd9a98ffd4205bb9f9c27c03bef903e120dc32"
+          }
+        },
+        {
+          "client_id": "541175065239-182qtoau8eqa95p9tk6atmdp0pf7cgs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvlPTVEYcpuJFQDlkEsaad3EIbuJ1yt2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541175065239-182qtoau8eqa95p9tk6atmdp0pf7cgs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

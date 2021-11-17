@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/imageButtonGestion2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="GESTION"
+            android:textColor="#5F5F5F"
+            android:backgroundTint="#fff"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/imageButtonInformacion2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="INFORMACION"
+            android:textColor="#215398"
+            android:background="@drawable/borderinferior"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_back"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#5F5F5F"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#DADADA"
+                android:gravity="center_horizontal"
+                android:text="Hora de compromiso" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#5F5F5F"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Fecha Entrega:" />
+
+
+                <TextView
+                    android:id="@+id/txtFechaEntrega"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="09:30 AM" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Hora entrega:" />
+
+
+                <TextView
+                    android:id="@+id/txtHoraEntrega"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:layout_marginEnd="16dp"
+                    android:text="Ninguna" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Tipo de flete:" />
+
+
+                <TextView
+                    android:id="@+id/txtTipoFlete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Pvg" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#DADADA"
+                android:gravity="center_horizontal"
+                android:text="Destinatario" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#5F5F5F"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Cliente:" />
+
+
+                <TextView
+                    android:id="@+id/txtCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Miguel Angel Ramirez" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="DNI/RUC:" />
+
+
+                <TextView
+                    android:id="@+id/txtDni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="74586152" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Contacto:" />
+
+
+                <TextView
+                    android:id="@+id/txtContacto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Desconocido" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Telefono:" />
+
+
+                <TextView
+                    android:id="@+id/txtTelefonoContacto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Desconocido" />
+
+                <ImageView
+                    android:id="@+id/img_llamar_contacto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/llamar" />
+
+                <ImageView
+                    android:id="@+id/img_msn_contacto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/mensaje" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#DADADA"
+                android:gravity="center_horizontal"
+                android:text="Dirección entrega" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#5F5F5F"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Dirección:" />
+
+
+                <TextView
+                    android:id="@+id/txtDireccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Mz J #343 Bellavista" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Referencia:" />
+
+
+                <TextView
+                    android:id="@+id/txtReferencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Cerca del paradero Huanuco" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="#DADADA"
+                android:gravity="center_horizontal"
+                android:text="Coordinador" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#5F5F5F"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Nombre:" />
+
+
+                <TextView
+                    android:id="@+id/txtCoordinador"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="GeanCarlos Lopez" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="Telefono:" />
+
+
+                <TextView
+                    android:id="@+id/txtCoordinadorTel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#000"
+                    android:text="9937854123" />
+
+                <ImageView
+                    android:id="@+id/img_llamar_coordinador"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/llamar" />
+
+                <ImageView
+                    android:id="@+id/img_msn_coordinador"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/mensaje" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

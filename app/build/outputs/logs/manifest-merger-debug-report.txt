@@ -1,0 +1,593 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\79b1d7083f78347c89e168caaf67e46f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7cec3516c1b15d8ed289211b51a740ba\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\59b4ad8d66f3f7abdd5ee51ebf503d16\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\98b92a35af804f33682fa3e300b15905\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c861b7a606f27516ac84e187bd48d504\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6e47ed819ae3694ae7738e1f1e8106b8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6c6d5bda82267dcc444d7f66c757ba60\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6ed4beb4c7e42f7f9268dd8040880b50\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5f3c31d1a159dec4a6c19d9b1c6fac5f\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:17:1-29:12
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ea6c4f2052747a1df36e070ea4b1b328\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c4f5196a16d8dd65fa8e7b0cd46c0ecf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\63f7423a953b9277538de69a1f1c049b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a4e9941bceabfc2a9c76f7eee077eb8f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\aa5ddff95840fdfb8d65501cbd03c651\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\62534e7df466756bea79bdfcbcad5ea7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c83d0ea91abc8ea124aca673aaba42bd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\97681301c8601a6c464d35a1108613a3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\689786fda229d0680e46c7da96900f4d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3aca89433ac378fa76152041dbee99ae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d89d2d053a647eb8b21517afb4e1faf2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\1bbdebab3a339845ab53b86efde0e6c6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c7520d6b42250a6c6be0b9d452658a9f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ef0b107b706eafc0a2a4e724817db764\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\93b63c527a7f99de98fbf67de1ee1d84\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\fe23720501aed80b44cc317008b31df6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3863413f72f23431483c8ee3789f1e81\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\92c6946d35f88598cfb7c24fa856376b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a0eccf106b7af353736e67e29ca0fdd4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7fa6cad4d094096a68ddfe90324243c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5ece2aaf8994ca36d135cfac8775d170\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d32d878647b24629a33ee616aa7dd04c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a9baf941178b8609b418743f3bbeed2b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\8ae717598e9cc01eec73324ca4e23d53\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dbe6c184b6c1d1bc63b5d561df0dd2e4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3f15b8eed040c8fd286d9e0007a3701d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6f6e85024135ba5190cec8d457ceeba2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9806a64a7f8873dfb96cd43266a1813d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f84181c3a7f4cb3d8ded239b7804f973\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a8327f0111647ea3079acb1b182aded4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9bd11afb3074283d54c75f01412d3c6f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\cf091024d321d621a0259a5fbac51c88\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\27538620c78cc4e5ad95cc2b66de2932\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f7dc6a91dcd29a87176abc26900dbfdc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c91c30e86c206ebe9114771d9e1fcfcc\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+	package
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:4:5-37
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:1-98:12
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:2:11-69
+	android:targetSandboxVersion
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:5:5-37
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:9:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:10:22-78
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:11:19-57
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:14:5-89
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:14:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:15:5-17:47
+	tools:ignore
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:16:9-52
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACTION_VIEW
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:19:22-67
+uses-permission#android.permission.PERMISSION_GRANTED
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:20:5-77
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:20:22-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:22:22-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:23:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:26:22-68
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:27:5-77
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:27:22-74
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:28:5-75
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:28:22-72
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:29:5-95
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:29:22-92
+application
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:31:5-96:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\79b1d7083f78347c89e168caaf67e46f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\79b1d7083f78347c89e168caaf67e46f\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6e47ed819ae3694ae7738e1f1e8106b8\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6e47ed819ae3694ae7738e1f1e8106b8\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6c6d5bda82267dcc444d7f66c757ba60\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6c6d5bda82267dcc444d7f66c757ba60\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6ed4beb4c7e42f7f9268dd8040880b50\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6ed4beb4c7e42f7f9268dd8040880b50\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5f3c31d1a159dec4a6c19d9b1c6fac5f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5f3c31d1a159dec4a6c19d9b1c6fac5f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:22:5-27:19
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ea6c4f2052747a1df36e070ea4b1b328\AndroidManifest.xml:11:5-20
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ea6c4f2052747a1df36e070ea4b1b328\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\63f7423a953b9277538de69a1f1c049b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\63f7423a953b9277538de69a1f1c049b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a4e9941bceabfc2a9c76f7eee077eb8f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a4e9941bceabfc2a9c76f7eee077eb8f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\aa5ddff95840fdfb8d65501cbd03c651\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\aa5ddff95840fdfb8d65501cbd03c651\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\62534e7df466756bea79bdfcbcad5ea7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\62534e7df466756bea79bdfcbcad5ea7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c83d0ea91abc8ea124aca673aaba42bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c83d0ea91abc8ea124aca673aaba42bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\97681301c8601a6c464d35a1108613a3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\97681301c8601a6c464d35a1108613a3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\689786fda229d0680e46c7da96900f4d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\689786fda229d0680e46c7da96900f4d\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\8ae717598e9cc01eec73324ca4e23d53\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\8ae717598e9cc01eec73324ca4e23d53\AndroidManifest.xml:22:5-23:19
+	android:supportsRtl
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:35:9-33
+	android:appComponentFactory
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:33:9-53
+		REJECTED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:22:18-86
+	android:icon
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:34:9-51
+	android:allowBackup
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:37:9-40
+	tools:replace
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:39:9-52
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:38:9-44
+activity#com.itp.trackinn.DetalleActivity
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:40:9-78
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:40:19-66
+service#com.itp.trackinn.ServiceGeolocation.ServiceGeolocation
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:42:9-45:39
+	android:enabled
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:43:13-82
+service#com.itp.trackinn.EnvioService
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:46:9-49:39
+	android:enabled
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:48:13-35
+	android:exported
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:47:13-57
+service#com.itp.trackinn.LocationService
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:50:9-53:39
+	android:enabled
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:52:13-35
+	android:exported
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:51:13-60
+service#com.itp.trackinn.ProgressIntentService
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:55:13-66
+activity#com.itp.trackinn.Views.MenuLateralActivity
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:58:9-63:56
+	android:screenOrientation
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:60:13-64
+	tools:ignore
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:63:13-53
+	android:theme
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:59:13-70
+activity#com.itp.trackinn.Views.MenuInferiorActivity
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:64:9-68:56
+	android:screenOrientation
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:67:13-49
+	android:label
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:66:13-65
+	tools:ignore
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:68:13-53
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:65:13-71
+activity#com.itp.trackinn.Views.MainActivity
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:69:9-78:20
+	android:screenOrientation
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:71:13-49
+	tools:ignore
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:72:13-53
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:70:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:73:13-77:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:74:17-69
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:74:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:76:27-74
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:80:9-83:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:23:9-25:69
+	android:permission
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:82:13-75
+	android:value
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:83:13-66
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:81:13-58
+receiver#com.itp.trackinn.AutomaticRun
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:85:9-95:20
+	android:enabled
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:87:13-35
+	android:permission
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:88:13-75
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:86:13-57
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:89:13-94:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:90:17-87
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:90:25-84
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:91:17-79
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:91:25-76
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:93:17-76
+	android:name
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml:93:27-73
+uses-sdk
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\79b1d7083f78347c89e168caaf67e46f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\79b1d7083f78347c89e168caaf67e46f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7cec3516c1b15d8ed289211b51a740ba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7cec3516c1b15d8ed289211b51a740ba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\59b4ad8d66f3f7abdd5ee51ebf503d16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\59b4ad8d66f3f7abdd5ee51ebf503d16\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\98b92a35af804f33682fa3e300b15905\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\98b92a35af804f33682fa3e300b15905\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c861b7a606f27516ac84e187bd48d504\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c861b7a606f27516ac84e187bd48d504\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6e47ed819ae3694ae7738e1f1e8106b8\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6e47ed819ae3694ae7738e1f1e8106b8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6c6d5bda82267dcc444d7f66c757ba60\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6c6d5bda82267dcc444d7f66c757ba60\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6ed4beb4c7e42f7f9268dd8040880b50\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6ed4beb4c7e42f7f9268dd8040880b50\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5f3c31d1a159dec4a6c19d9b1c6fac5f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5f3c31d1a159dec4a6c19d9b1c6fac5f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:20:5-44
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ea6c4f2052747a1df36e070ea4b1b328\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.d-max:spots-dialog:1.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ea6c4f2052747a1df36e070ea4b1b328\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c4f5196a16d8dd65fa8e7b0cd46c0ecf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c4f5196a16d8dd65fa8e7b0cd46c0ecf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\63f7423a953b9277538de69a1f1c049b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\63f7423a953b9277538de69a1f1c049b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a4e9941bceabfc2a9c76f7eee077eb8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a4e9941bceabfc2a9c76f7eee077eb8f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e0454ac4f21c689814acf2f629b1fc77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\aa5ddff95840fdfb8d65501cbd03c651\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\aa5ddff95840fdfb8d65501cbd03c651\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\62534e7df466756bea79bdfcbcad5ea7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\62534e7df466756bea79bdfcbcad5ea7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c83d0ea91abc8ea124aca673aaba42bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c83d0ea91abc8ea124aca673aaba42bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\97681301c8601a6c464d35a1108613a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\97681301c8601a6c464d35a1108613a3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\689786fda229d0680e46c7da96900f4d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\689786fda229d0680e46c7da96900f4d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5a9d263ebc6dea9b3ea635ba1f8753b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3aca89433ac378fa76152041dbee99ae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3aca89433ac378fa76152041dbee99ae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d89d2d053a647eb8b21517afb4e1faf2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d89d2d053a647eb8b21517afb4e1faf2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\1bbdebab3a339845ab53b86efde0e6c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\1bbdebab3a339845ab53b86efde0e6c6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c7520d6b42250a6c6be0b9d452658a9f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c7520d6b42250a6c6be0b9d452658a9f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ef0b107b706eafc0a2a4e724817db764\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\ef0b107b706eafc0a2a4e724817db764\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\93b63c527a7f99de98fbf67de1ee1d84\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\93b63c527a7f99de98fbf67de1ee1d84\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\fe23720501aed80b44cc317008b31df6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\fe23720501aed80b44cc317008b31df6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3863413f72f23431483c8ee3789f1e81\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3863413f72f23431483c8ee3789f1e81\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\92c6946d35f88598cfb7c24fa856376b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\92c6946d35f88598cfb7c24fa856376b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a0eccf106b7af353736e67e29ca0fdd4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a0eccf106b7af353736e67e29ca0fdd4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7fa6cad4d094096a68ddfe90324243c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7fa6cad4d094096a68ddfe90324243c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5ece2aaf8994ca36d135cfac8775d170\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\5ece2aaf8994ca36d135cfac8775d170\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d32d878647b24629a33ee616aa7dd04c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d32d878647b24629a33ee616aa7dd04c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a9baf941178b8609b418743f3bbeed2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a9baf941178b8609b418743f3bbeed2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dddfcd7e76058c8973f565557b23fdc1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\8ae717598e9cc01eec73324ca4e23d53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\8ae717598e9cc01eec73324ca4e23d53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dbe6c184b6c1d1bc63b5d561df0dd2e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\dbe6c184b6c1d1bc63b5d561df0dd2e4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3f15b8eed040c8fd286d9e0007a3701d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\3f15b8eed040c8fd286d9e0007a3701d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6f6e85024135ba5190cec8d457ceeba2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\6f6e85024135ba5190cec8d457ceeba2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9806a64a7f8873dfb96cd43266a1813d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9806a64a7f8873dfb96cd43266a1813d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f84181c3a7f4cb3d8ded239b7804f973\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f84181c3a7f4cb3d8ded239b7804f973\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a8327f0111647ea3079acb1b182aded4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\a8327f0111647ea3079acb1b182aded4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9bd11afb3074283d54c75f01412d3c6f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\9bd11afb3074283d54c75f01412d3c6f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\cf091024d321d621a0259a5fbac51c88\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\cf091024d321d621a0259a5fbac51c88\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\27538620c78cc4e5ad95cc2b66de2932\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\27538620c78cc4e5ad95cc2b66de2932\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f7dc6a91dcd29a87176abc26900dbfdc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\f7dc6a91dcd29a87176abc26900dbfdc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c91c30e86c206ebe9114771d9e1fcfcc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\c91c30e86c206ebe9114771d9e1fcfcc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vega\Desktop\transporte_zavala\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\60d16518a6d8051c1077ed533822e489\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e5115f5a0f9ae9ec1a5534f1bc8e2248\AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\7468a9b156f02474e8c8b129f693902b\AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\d243ee5530e25e6fab2a17b18f1f4471\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\e7a6c9b9e19bbdbf95b4d6939001525c\AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Vega\.gradle\caches\transforms-2\files-2.1\74fd757fd7414ba84763042b50820386\AndroidManifest.xml:27:13-77
